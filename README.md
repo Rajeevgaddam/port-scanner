@@ -18,3 +18,23 @@ sudo apt install python3-scapy
 now run the tool using this command
 
 sudo python3 portscan.py
+
+# for windows
+
+Download the zip file from https://github.com/Rajeevgaddam/port-scanner
+
+go to the port-scanner folder with this command
+
+cd Downloads\port-scanner-main\port-scanner-main
+
+To use this python mandatory, Download it from https://www.python.org/downloads/
+
+Download scapy module to use this tool with this command
+
+pip install scapy
+
+Download npcap to send the tcp syn packets from this website https://npcap.com/#download
+
+Execute the tool with administrator priviledges with this command
+
+py portscan.py
